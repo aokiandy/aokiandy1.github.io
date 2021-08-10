@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: sevenSegment;
+    src: url(Segment.ttf);
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: centre;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    color: maroon;
+    margin-right: -0px;
+}
+
+#container {
+    border: 0px solid #1122;
+    padding-top: 100px;
+    margin-left: -300px;
+    visibility: hidden;
+}
+
+#andy {
+    font-family: sevenSegment;
+    font-size: 3em;
+    color: #969696;
+}
+
+.color {
+    display: table-cell;
+    width: 80px;
+    height: 80px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 2px solid #111222;
+}
+
+.clr1 {
+    background-color: crimson;
+}
+
+.clr2 {
+    background-color: cadetblue;
+}
+
+.clr3 {
+    background-color: darkolivegreen;
+}
+
+.clr4 {
+    background-color: darkturquoise;
+}
+
+h1 {
+    font-family: sevenSegment;
+    font-size: 15em;
+    color: #969696;
+}
+
+.aoki {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
